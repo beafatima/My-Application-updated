@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300sp"
+    android:layout_height="735sp"
+    android:background="#212A3E"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_margin="10sp"
+        android:src="@drawable/baseline_menu_24"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_margin="20sp"
+            android:src="@drawable/homepage"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gameplay"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/archive"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Archive"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:gravity="center"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/match"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Match History"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:gravity="center"
+            tools:ignore="HardcodedText,RtlCompat" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/profile"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                android:gravity="center"
+                tools:ignore="HardcodedText,RtlCompat" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/faqs"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="FAQs"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textAlignment="textStart"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText,RtlCompat" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_margin="20sp"
+        android:src="@drawable/feedback"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Feedback"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:gravity="center"
+            tools:ignore="HardcodedText,RtlCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_margin="20sp"
+            android:src="@drawable/logout"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            tools:ignore="HardcodedText,RtlCompat" />
+    </LinearLayout>
+</LinearLayout>
